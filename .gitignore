@@ -1,0 +1,16 @@
+# Client data — NEVER commit
+cases/*
+!cases/README.md
+!cases/_example/
+!cases/_example/**
+
+# OS / editor
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
